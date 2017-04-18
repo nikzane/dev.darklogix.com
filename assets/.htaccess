@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName "Restricted Area"
+AuthUserFile /var/www/vhosts/dev.darklogix.com/assets/.htpasswd
+require valid-user
+order deny,allow
+allow from all

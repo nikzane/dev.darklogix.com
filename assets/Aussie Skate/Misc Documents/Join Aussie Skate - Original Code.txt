@@ -1,0 +1,18 @@
+<a name="join"></a>
+<h1 style="text-align: center;"><img class="align none wp-image-359" src="http://aussieskate.spd13.com/wp-content/uploads/2016/05/join-1-300x300.png" alt="join" width="200" height="200" /></h1>
+<h1 style="text-align: center;">Join Aussie Skate now!</h1>
+&nbsp;
+<div class="csRow">
+<div class="csColumn" style="margin: 0px; padding: 0px; float: left; width: 49%;" data-csstartpoint="0" data-csendpoint="470.5" data-cswidth="49.0%" data-csid="bcb59ac4-2e48-7a9c-972e-a2d936a8a239">
+<p style="text-align: justify;">Become part of the skating family and register with <strong>Aussie Skate™</strong>. When you sign up for a skating program at an <strong>Aussie Skate™</strong> participating rink you automatically become registered with <strong>Ice Skating Australia (ISA)</strong>.</p>
+
+</div>
+<div class="csColumnGap" style="margin: 0px; padding: 0px; float: left; width: 2.08%;"><img style="border: none;" src="http://aussieskate.spd13.com/wp-content/plugins/advanced-wp-columns/assets/js/plugins/views/img/1x1-pixel.png" /></div>
+<div class="csColumn" style="margin: 0px; padding: 0px; float: left; width: 48.9%;" data-csstartpoint="490.5" data-csendpoint="960" data-cswidth="48.9%" data-csid="29d08eec-2660-4895-ad6b-0d3129fe8359">
+<p style="text-align: justify;">There are many advantages that go with registration such as 24/7 personal accident/injury and public liability insurance when competing in or training for sanctioned <strong>Aussie Skate™</strong> programs and materials, the opportunity to participate in <strong>Aussie Skate™</strong> competitions and a backpack full of the latest information and booklets for skaters and parents.</p>
+
+</div>
+</div>
+<pre style="text-align: center;">Registration is only <strong>$30</strong> for the first year and <strong>$17</strong> per year renewal.
+<small>(Terms and Conditions Apply)</small></pre>
+<p style="text-align: center;"><a href="/membership-account/membership-checkout/?level=1"><button>Join Now!</button></a> <a href="/already-a-member/"><button>Already a Member?</button></a></p>

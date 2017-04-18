@@ -1,0 +1,117 @@
+body {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+
+  color: #FFFFFF;
+  background: #333;
+	background: url('../img/tobruk-splash-1.jpg');
+  background-size: 100% auto;
+  font-family: sans-serif;
+  background-position: center center;
+  position: fixed;
+}
+
+header {
+  display: inline-block;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  margin: 0;
+  padding: 0;
+
+  font-size: 3.0em;
+  font-weight: bold;
+}
+
+footer {
+  display: block;
+  width: 100%;
+  position: fixed;
+  bottom: 10px;
+  
+  font-size: 0.8em;
+  text-align: center;
+}
+#logo-icon {
+	display: inline-block;
+	background: url('../img/dark-logix-logo-icon.png');
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+}
+#logo-main {
+	display: block;
+	background: url('../img/dark-logix.png');
+	background-size: 355px 100px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	height: 200px;
+}
+#logo-main:hover {
+	display: block;
+	background: url('../img/dark-logix-hover.png');
+	background-size: 355px 100px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	height: 200px;
+}
+#main-content {
+	max-width: 800px;
+	margin: auto;
+	text-align: center;
+	font-size: 1.6em;
+}
+.shadowed {
+  -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.25));
+  filter: url(#drop-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#000')";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#000')";
+}
+#debug {
+  display: none;
+  width: 100%;
+  position: fixed;
+  bottom: 5px;
+  left: 5px;
+  margin: 0;
+  padding: 5px;
+
+  color: #FFF;
+  background: rgba(0,0,0,0.85);
+  font-size: 0.8em;
+
+  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: 3px;
+  z-index: 9999
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: white;
+	text-decoration: none;
+	border-bottom: 2px orange solid;
+}
+.intro {
+	color: #AAA;
+	background: rgba(0,0,0,0.85);
+	padding: 1.0em;
+	border-radius: 1.0em;
+	text-align: justify;
+}
+.question {
+	cursor: help;
+}
+#list-items {
+	font-size: 0.8em!important;
+	display: block;
+	height: 400px;
+	overflow-y: scroll;
+}

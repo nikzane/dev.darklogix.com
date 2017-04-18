@@ -1,0 +1,13 @@
+Aussie Skate Google Maps API Key
+AIzaSyAfnVPzRf21kZ4VEM15onR9iFNS8XDGMrA
+
+<h1 style="text-align: center;">Find a rink near you!</h1>
+<strong>Brisbane</strong>
+
+[accordion autoclose="false" clicktoclose="true"]
+[accordion-item title="<i class='fa fa-arrow-right'></i> Iceworld Olympic Ice Rinks - 1179 Beaudesert Rd, Acacia Ridge QLD 4110 <small>(click to show map)</small>"]
+<iframe style="border: 0; border-radius: 5px; background: #CCC; padding: 10px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14146.033754630269!2d153.0160208!3d-27.5777623!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b914565d7d0e749%3A0x297bb7a133886c0!2sIceworld+Olympic+Ice+Rinks!5e0!3m2!1sen!2sau!4v1468459077192" width="100%" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe>[/accordion-item]
+
+[accordion-item title="<i class='fa fa-arrow-right'></i> Ice world Olympic Ice Rink - 2304 Sandgate Rd, Boondall QLD 4034 <small>(click to show map)</small>"]
+<iframe style="border: 0; border-radius: 5px; background: #CCC; padding: 10px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14176.532200681373!2d153.0495851!3d-27.3403086!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b93e2fe1e9b5d11%3A0x220d2a89ae2256c5!2sIceworld+Olympic+Ice+Rink!5e0!3m2!1sen!2sau!4v1468459179538" width="100%" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe>[/accordion-item]
+[/accordion]

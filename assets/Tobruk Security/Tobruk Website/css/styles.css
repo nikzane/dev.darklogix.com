@@ -1,0 +1,501 @@
+body {
+  background: #DDD;
+  font-family: 'Exo 2', 'Helvetica', 'Arial', 'san-serif';
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+header {
+  position: fixed;
+  top: 40px;
+  display: block;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  position: fixed;
+  background: #DDDDDD;
+  text-align: center;
+  z-index: 100;
+}
+main {
+  margin-top: 10px;
+}
+footer {
+  display: block;
+  width: 900px;
+  margin: 0 auto;
+}
+#headerlogo
+{
+  display: block;
+  width: 100%;
+  height: 100px;
+  background: url(../img/mainlogo.png) no-repeat center center;
+/*   background-size: 567px 127px; */
+  background-size: 200px;
+}
+#frontsplash {
+  display: block;
+  background: rgba(255,255,255,0.9);
+  background-image: url('/img/splash03.jpg');
+  width: 100%;
+  height: 700px;
+}
+#frontsplash span {
+  display: block;
+  width: 100%;
+  padding: 1.0em;
+  font-size: 4em;
+  color: #FFF;
+  text-shadow: 0px 2px 3px #000;
+  text-align: center;
+  background: rgba(0,0,0,0.3);
+}
+#footerwrapper {
+  position: relative;
+  display: block;
+  background: #333333;
+  color: #CCCCCC;
+  margin: 10px 0 0 0;
+  padding: 20px 20px;
+  border-top: 1px solid #111111;
+}
+#footerwrapperinner {
+/*   background: url(../img/zanelogowhite1200.png) no-repeat center center; */
+  background-size: 200px 200px;
+}
+.third-column {
+  display: block;
+  float: left;
+  width: 28%;
+  padding: 1em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  background: rgba(255,255,255,0.5);
+  border-radius: 1.0em;
+}
+.footer-column {
+  display: block;
+  float: left;
+  width: 33.333%;
+}
+nav {
+  display: block;
+  width: 900px;
+  margin: 0 auto;
+}
+nav ul {
+  display: block;
+  height: 50px;
+  border-radius: 0 0 5px 5px;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  position: relative;
+  top: 0px;
+  display: block;
+  color: #FFF;
+  float: left;
+  padding: 10px 20px;
+  
+/*
+  : pointer;
+  text-shadow: 1px 1px 0px rgba(1,1,1,1);
+  margin: 5px;
+  border-radius: 5px;
+*/
+
+  background: rgba(255,255,255,0);
+  -webkit-transition: background 200ms ease-in-out;
+  -moz-transition: background 200ms ease-in-out;
+  -o-transition: background 200ms ease-in-out;
+  -ms-transition: background 200ms ease-in-out;
+  transition: background 200ms ease-in-out; 
+
+  cursor: pointer;
+/*
+  animation: nav-out 600ms;
+  -webkit-animation: nav-out 600ms ease-in-out;
+*/
+}
+nav ul li:hover {
+  background: rgba(255,255,255,0.1);
+  -webkit-transition: background 200ms ease-in-out;
+  -moz-transition: background 200ms ease-in-out;
+  -o-transition: background 200ms ease-in-out;
+  -ms-transition: background 200ms ease-in-out;
+  transition: background 200ms ease-in-out; 
+
+/*
+  animation: nav-in 300ms;
+  -webkit-animation: nav-in 300ms ease-in-out;
+*/
+}
+nav ul li:active {
+  background: rgba(63, 63, 191,1);
+  box-shadow: 0px 2px 20px rgba(1,1,1,0.25) inset, 0px 2px 2px rgba(1,1,1,0.65) inset;
+}
+.nav-active {
+  background: rgba(63, 63, 191,0.75)!important;
+/*   background: rgba(255,255,255,0.15)!important; */
+}
+section {
+  background: rgba(255,255,255,0.85);
+  display: block;
+  margin: 0 0 20px 0;
+  padding: 20px;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+}
+#navwrapper {
+  z-index: 100;
+/*   position: fixed; */
+/*   top: 100px; */
+  background: rgba(1,1,1,0.75);
+  display: block;
+  width: 100%;
+  height: 39px;
+/*   height: 50px; */
+}
+#navmarker, #navmarker-ghost {
+  /* background: rgba(1,1,1,0.2); */
+  position: absolute;
+  left: 0px;
+  top: 50px;
+  display: block;
+  width: 40px;
+  height: 20px;
+  overflow: hidden;
+}
+#navmarkerinner, #navmarkerinner-ghost {
+  position: relative;
+  left: 10px;
+  top: -10px;
+  display: block;
+  background: rgba(1,1,1,0.75);
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+#navmarkerinner-ghost {
+  background: rgba(1,1,1,0.25);
+}
+#mainwrapper {
+  display: block;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.lightgray {
+  background: #EEEEEE;
+  background: -moz-linear-gradient(top, #EEEEEE 0%, #DDDDDD 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EEEEEE), color-stop(100%,#DDDDDD));
+  background: -webkit-linear-gradient(top, #EEEEEE 0%,#DDDDDD 100%);
+  background: -o-linear-gradient(top, #EEEEEE 0%,#DDDDDD 100%);
+  background: -ms-linear-gradient(top, #EEEEEE 0%,#DDDDDD 100%);
+  background: linear-gradient(to bottom, #EEEEEE 0%,#DDDDDD 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EEEEEE', endColorstr='#DDDDDD',GradientType=0 );
+}
+.shadow {
+  box-shadow: 0px 3px 10px rgba(1,1,1,0.25);
+}
+#copyright {
+  display: block;
+  position: relative;
+  bottom: 0px;
+  font-size: 0.8em;
+  margin: 20px 0 0 0;
+  padding: 20px 0 0 0;
+  text-align: center;
+  border-top: 1px solid rgba(255,255,255,0.25);
+}
+#copyright-sub {
+  font-size: 0.6em;  
+}
+.clear {
+  clear: both;
+}
+#debug {
+  font-family: Monaco, monospace;
+  font-size: 9pt;
+/*   display: none; */
+  position: fixed;
+  bottom: 5px;
+  left: 5px;
+  background: rgba(1,1,1,0.5);
+  color: #FFFFFF;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+h1, h2, h3, h4, h5 {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: #9B30FF;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
+}
+hr {
+  display: block;
+  width: 100%;
+  border: none;
+}
+input, textarea {
+  font-size: 1.0em;
+  padding: 0.5em;
+  border: 1px #AAA;
+  border-radius: 3px;
+  border: 1px solid rgba(255,255,255,0);  
+  box-shadow: inset 0px 1px 3px rgba(0,0,0,0.5);
+  
+  transition: border-color 0.3s linear;
+  -moz-transition: border-color 0.3s linear;   
+  -o-transition: border-color 0.3s linear; 
+  -webkit-transition: border-color 0.3s linear;
+}
+input[type=submit], input[type=reset] {
+/*   background: #CCC; */
+  background: #eeeeee; /* Old browsers */
+  background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.5);
+
+  padding: 5px 20px;
+}
+input:focus, textarea:focus {
+  border: 1px solid rgba(0,0,255,0.5);
+  outline:none;
+  
+  transition: border-color 0.2s linear;
+  -moz-transition: border-color 0.2s linear;   
+  -o-transition: border-color 0.2s linear; 
+  -webkit-transition: border-color 0.2s linear;
+
+}
+input[type=submit]:hover, input[type=reset]:hover {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1d6ff+0,85b2d3+100 */
+background: #c1d6ff; /* Old browsers */
+background: -moz-linear-gradient(top, #c1d6ff 0%, #85b2d3 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #c1d6ff 0%,#85b2d3 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #c1d6ff 0%,#85b2d3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1d6ff', endColorstr='#85b2d3',GradientType=0 ); /* IE6-9 */
+
+  box-shadow: 0px 2px 3px rgba(0,0,0,0.5);
+}
+input[type=submit]:active, input[type=reset]:active {
+  color: #FFF;
+
+  background: #a7cfdf; /* Old browsers */
+  background: -moz-linear-gradient(top, #a7cfdf 0%, #23538a 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #a7cfdf 0%,#23538a 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #a7cfdf 0%,#23538a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 ); /* IE6-9 */
+
+  box-shadow: inset 0px 2px 5px rgba(0,0,0,0.5);
+}
+#socialaccess {
+  width: 100%;
+  text-align: center;
+}
+.socialaccess i
+{
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 100px;
+}
+.socialaccess i:hover {
+  background: rgba(255,255,255,0.75);
+  -webkit-transition: background 300ms ease-in-out;
+  -moz-transition: background 300ms ease-in-out;
+  -o-transition: background 300ms ease-in-out;
+  -ms-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out; 
+}
+.socialaccess a {
+/*   color: rgba(255,255,255,0.5); */
+}
+.socialaccess a:hover {
+/*   color: rgba(0,0,0,1); */
+}
+.fa-linkedin:hover {
+  color: rgb(0,119,181);
+}
+.fa-twitter:hover {
+  color: rgb(85,172,238);
+}
+.fa-envelope:hover {
+  color: rgb(100,100,100);
+}
+#topheader {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding-left: 5px;
+  padding-top: 5px;
+  background: rgba(0,0,0,0.75);
+}
+
+.home-security {
+  display: block;
+  text-align: center;
+/*
+  width: 33%;
+  float: left;
+*/
+}
+.home-security i {
+  color: #2c63d8;
+}
+.third-column {
+  color: #000;
+/*   cursor: pointer; */
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+.third-column:hover {
+  color: rgba(255,255,255,0.75);
+  background: rgba(0,0,0,0.75);
+/*   cursor: pointer; */
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+.third-column:hover a {
+  color: #EE82EE;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;  
+}
+/*
+.third-column-content p {
+  opacity: 0;
+}
+.third-column-content p:hover {
+  opacity: 1;
+}
+*/
+.home-security i {
+  font-size: 2.0em;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  top: 0px;
+}
+.stickynav {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  top: 100px;
+}
+
+.home-security {
+  height: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.submit {
+  cursor: pointer;
+}
+#accordion h3 {
+  cursor: pointer;
+  outline: none;
+}
+#puzzleimage {
+  display: block;
+  width: 288px;
+  height: 367px;
+  
+  border-radius: 3px;
+  margin: auto;
+  border: solid #FFF 10px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.3);
+}
+#puzzleimage img {
+  border: none;
+}
+.jqpuzzle {
+  border: none;
+}
+
+@keyframes nav-in {
+   from { background: rgba(255,255,255,0; top: 0px; }
+   to { background: rgba(255,255,255,0.1; top: 10px; }
+}
+@keyframes nav-out {
+   from { background: rgba(255,255,255,0; top: 0px; }
+   to { background: rgba(255,255,255,0.1; top: 10px; }
+}
+
+/* ------------------ */
+/* JQUERY SNAP PUZZLE */
+/* ------------------ */
+
+!function(a){function f(a,b){if(!(a.originalEvent.touches.length>1)){a.preventDefault();var c=a.originalEvent.changedTouches[0],d=document.createEvent("MouseEvents");d.initMouseEvent(b,!0,!0,window,1,c.screenX,c.screenY,c.clientX,c.clientY,!1,!1,!1,!1,0,null),a.target.dispatchEvent(d)}}if(a.support.touch="ontouchend"in document,a.support.touch){var e,b=a.ui.mouse.prototype,c=b._mouseInit,d=b._mouseDestroy;b._touchStart=function(a){var b=this;!e&&b._mouseCapture(a.originalEvent.changedTouches[0])&&(e=!0,b._touchMoved=!1,f(a,"mouseover"),f(a,"mousemove"),f(a,"mousedown"))},b._touchMove=function(a){e&&(this._touchMoved=!0,f(a,"mousemove"))},b._touchEnd=function(a){e&&(f(a,"mouseup"),f(a,"mouseout"),this._touchMoved||f(a,"click"),e=!1)},b._mouseInit=function(){var b=this;b.element.bind({touchstart:a.proxy(b,"_touchStart"),touchmove:a.proxy(b,"_touchMove"),touchend:a.proxy(b,"_touchEnd")}),c.call(b)},b._mouseDestroy=function(){var b=this;b.element.unbind({touchstart:a.proxy(b,"_touchStart"),touchmove:a.proxy(b,"_touchMove"),touchend:a.proxy(b,"_touchEnd")}),d.call(b)}}}(jQuery);
+
+        function start_puzzle(x){
+            $('#puzzle_solved').hide();
+            $('#source_image').snapPuzzle({
+                rows: x, columns: x,
+                pile: '#pile',
+                containment: '#puzzle-containment',
+                onComplete: function(){
+                    $('#source_image').fadeOut(150).fadeIn();
+                    $('#puzzle_solved').show();
+                }
+            });
+        }
+
+        $(function(){
+            $('#pile').height($('#source_image').height());
+            start_puzzle(3);
+
+            $('.restart-puzzle').click(function(){
+                $('#source_image').snapPuzzle('destroy');
+                start_puzzle($(this).data('grid'));
+            });
+
+            $(window).resize(function(){
+                $('#pile').height($('#source_image').height());
+                $('#source_image').snapPuzzle('refresh');
+            });
+        });
+
+
+        if (~window.location.href.indexOf('http')) {
+            (function() {var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;po.src = 'https://apis.google.com/js/plusone.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);})();
+            (function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=114593902037957";fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+            $('#github_social').html('\
+                <iframe style="float:left;margin-right:15px" src="//ghbtns.com/github-btn.html?user=Pixabay&repo=jQuery-snapPuzzle&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>\
+                <iframe style="float:left;margin-right:15px" src="//ghbtns.com/github-btn.html?user=Pixabay&repo=jQuery-snapPuzzle&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>\
+            ');
+        }

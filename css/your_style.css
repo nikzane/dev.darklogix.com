@@ -1,0 +1,165 @@
+/*
+ * It is advised not to edit the smartadmin_production.css
+ * as this will override any changes you make in the 
+ * later versions of this theme. 
+ * 
+ * We advise that you use use this CSS to override 
+ * SmartAdmin styles. 
+ * 
+ * Rename the stylesheet to whatever your liking so it will stay
+ * unique to you with each update of SmartAdmin.
+ */
+
+/*
+ * INDEX
+ * 
+ * - HTML
+ * - BODY
+ * - CUSTOM STYLES
+ */
+ 
+ #logo {
+	 display: inline-block;
+	 background-image: url(../img/logo.png);
+	 background-size: 120px 32px;
+	 background-repeat: no-repeat;
+	 width: 120px;
+	 height: 32px;
+ }
+#logo-group {
+	padding: 0!important;
+	margin: 0!important;
+}
+#icon {
+ display: inline-block;
+ background-image: url(../img/darklogix-icon-brushed-metal-small.jpg);
+ background-size: 32px 32px;
+ background-repeat: no-repeat;
+ width: 32px;
+ height: 32px;
+}
+#demo-setting {
+	display: none;
+}
+.login-info {
+	background: none!important;
+}
+#search-fld {
+	border-bottom: 1px solid #444;
+}
+#header {
+	background: #eeeeee!important; /* Old browsers */
+	background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%)!important; /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%)!important; /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%)!important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 )!important; /* IE6-9 */
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.25)!important;
+	color: #333!important;
+}
+#left-panel {
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.25)!important;
+}
+.project-context {
+	color: #333!important;
+}
+.label {
+	color: #333!important;	
+}
+#welcome-splash {
+	display: none;
+}
+#search-project {
+	padding-left: 0.5em;
+}
+
+#activity {
+	color: #000!important;
+}
+.dashboard-button {
+	display: inline-block;
+	padding: 2.0em;
+	text-align: center;
+	margin: 5px;
+	background: #DDD;
+	border-radius: 1.0em;
+	width: 32%;
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.15);
+}
+.dashboard-button:hover {
+	color: #FFF;
+	background: #465a63;
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+}
+@media (max-width: 767px) {
+	.dashboard-button {
+			width: 98%;
+	}
+	.header-search {
+		background: #FFF!important;
+}
+}
+@media (min-width: 766px) {
+	.dashboard-button {
+			width: 23%;
+	}
+}
+#cancel-search-js {
+	background: none!important;
+}
+
+
+.box {
+  position: relative;
+  display: inline-block;
+/*
+  width: 100px;
+  height: 100px;
+*/
+  background-color: #fff;
+  border-radius: 5px;
+/*   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); */
+  border-radius: 5px;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.box::after {
+  content: "";
+  border-radius: 5px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+/*   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); */
+  opacity: 0;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.box:hover {
+  -webkit-transform: scale(1.15, 1.15);
+  transform: scale(1.15, 1.15);
+  z-index: 99999;
+}
+.box:hover::after {
+    opacity: 1;
+}
+/*
+nav ul li:hover {
+	color: #FFF!important;
+	background: #465a63;
+	.menu-item-parent {
+		color: #FFF!important;
+	}
+}
+li:hover {
+	background-color: #444!important;
+}
+*/
+hr {
+	border: 0;
+	border-bottom: 1px solid #999;
+}
+.gallery-title {
+/* 	background: rgba(0,0,0,0.25); */
+}
