@@ -1,3 +1,4 @@
+THIS IS A TEST
 <?php
 
 //initilize the page
